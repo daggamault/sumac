@@ -16,7 +16,7 @@ const result = await Bun.build({
     './src/client/index.ts'
   ],
   outdir,
-  target: 'bun',
+  target: 'node',
   format: 'esm',
   minify: true,
   sourcemap: 'none'
@@ -40,6 +40,7 @@ await writeFile(
       type: 'module',
       main: './index.js',
       types: './index.d.ts',
+      files: ['**/*.js', '**/*.d.ts'],
       exports: {
         '.': { types: './index.d.ts', default: './index.js' },
         './runtime/bun': {
