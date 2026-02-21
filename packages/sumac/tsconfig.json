@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "sumac": ["./src/index.ts"],
+      "sumac/runtime/bun": ["./src/runtime/bun.ts"],
+      "sumac/runtime/node": ["./src/runtime/node.ts"],
+      "sumac/client": ["./src/client/index.ts"]
+    }
+  },
+  "include": ["src/**/*.ts", "test/**/*.ts", "build.ts"]
+}

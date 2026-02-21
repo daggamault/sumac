@@ -1,0 +1,17 @@
+{
+  "name": "sumac",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./runtime/bun": "./src/runtime/bun.ts",
+    "./runtime/node": "./src/runtime/node.ts",
+    "./client": "./src/client/index.ts"
+  },
+  "scripts": {
+    "test": "bun test",
+    "build": "bun run ./build.ts",
+    "typecheck": "tsc --noEmit"
+  }
+}

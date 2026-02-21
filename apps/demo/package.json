@@ -1,0 +1,13 @@
+{
+  "name": "demo",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "drizzle-orm": "^0.45.1",
+    "sumac": "workspace:*"
+  },
+  "scripts": {
+    "dev": "cd ../.. && bun --hot apps/demo/src/index.ts",
+    "typecheck": "tsc --noEmit"
+  }
+}
