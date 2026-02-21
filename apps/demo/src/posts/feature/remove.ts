@@ -1,4 +1,4 @@
-import { HttpError } from 'sumac';
+import { HttpError } from '@daggamaultz/sumac';
 import type { AuthCtx } from '@/shared/util/context';
 import { deletePost } from '@/posts/data-access/delete-post';
 import { findPost } from '@/posts/data-access/find-post';

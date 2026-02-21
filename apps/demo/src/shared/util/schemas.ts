@@ -1,4 +1,4 @@
-import { t } from 'sumac';
+import { t } from '@daggamaultz/sumac';
 
 export const LoginCredentials = t.Object({
   name: t.String({ minLength: 1 }),

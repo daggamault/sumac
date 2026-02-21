@@ -1,4 +1,4 @@
-import { type Module, Router, t } from 'sumac';
+import { type Module, Router, t } from '@daggamaultz/sumac';
 import { authenticated } from '@/shared/util/auth';
 import type { AppCtx } from '@/shared/util/context';
 import { CreateComment, CreatePost, PatchPost } from '@/shared/util/schemas';

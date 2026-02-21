@@ -9,8 +9,8 @@ import {
   Sumac,
   secureHeaders,
   timing
-} from 'sumac';
-import { bunHandler } from 'sumac/runtime/bun';
+} from '@daggamaultz/sumac';
+import { bunHandler } from '@daggamaultz/sumac/runtime/bun';
 import { adminModule } from '@/admin/feature/router';
 import { authModule } from '@/auth/feature/router';
 import { postsModule } from '@/posts/feature/router';

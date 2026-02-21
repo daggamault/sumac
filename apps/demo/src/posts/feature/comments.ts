@@ -1,4 +1,4 @@
-import { HttpError } from 'sumac';
+import { HttpError } from '@daggamaultz/sumac';
 import { findPost } from '@/posts/data-access/find-post';
 import { listComments } from '@/posts/data-access/list-comments';
 import type { AppCtx } from '@/shared/util/context';

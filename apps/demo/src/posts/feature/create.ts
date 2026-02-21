@@ -1,4 +1,4 @@
-import type { Static } from 'sumac';
+import type { Static } from '@daggamaultz/sumac';
 import { insertPost } from '@/posts/data-access/insert-post';
 import type { AuthCtx } from '@/shared/util/context';
 import type { CreatePost } from '@/shared/util/schemas';
