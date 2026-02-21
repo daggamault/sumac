@@ -1,7 +1,7 @@
-import { HttpError } from '@daggamaultz/sumac';
-import type { AuthCtx } from '@/shared/util/context';
+import { HttpError } from '@daggamault/sumac';
 import { deletePost } from '@/posts/data-access/delete-post';
 import { findPost } from '@/posts/data-access/find-post';
+import type { AuthCtx } from '@/shared/util/context';
 
 export const remove = async ({
   db,

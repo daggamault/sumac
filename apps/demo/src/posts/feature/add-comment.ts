@@ -1,4 +1,4 @@
-import { HttpError, type Static } from '@daggamaultz/sumac';
+import { HttpError, type Static } from '@daggamault/sumac';
 import { findPost } from '@/posts/data-access/find-post';
 import { insertComment } from '@/posts/data-access/insert-comment';
 import type { AuthCtx } from '@/shared/util/context';

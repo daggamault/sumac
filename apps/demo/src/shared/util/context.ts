@@ -1,4 +1,4 @@
-import type { BaseCtx } from '@daggamaultz/sumac';
+import type { BaseCtx } from '@daggamault/sumac';
 import type { Db } from '@/shared/data-access';
 import type { SafeUser } from '.';
 

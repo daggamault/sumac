@@ -1,4 +1,3 @@
-import { serve } from 'bun';
 import {
   bodyLimit,
   compress,
@@ -9,8 +8,9 @@ import {
   Sumac,
   secureHeaders,
   timing
-} from '@daggamaultz/sumac';
-import { bunHandler } from '@daggamaultz/sumac/runtime/bun';
+} from '@daggamault/sumac';
+import { bunHandler } from '@daggamault/sumac/runtime/bun';
+import { serve } from 'bun';
 import { adminModule } from '@/admin/feature/router';
 import { authModule } from '@/auth/feature/router';
 import { postsModule } from '@/posts/feature/router';

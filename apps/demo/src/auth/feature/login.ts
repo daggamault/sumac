@@ -1,4 +1,4 @@
-import type { Static } from '@daggamaultz/sumac';
+import type { Static } from '@daggamault/sumac';
 import { SESSION_COOKIE } from '@/shared/util/auth';
 import type { AppCtx } from '@/shared/util/context';
 import type { LoginCredentials } from '@/shared/util/schemas';

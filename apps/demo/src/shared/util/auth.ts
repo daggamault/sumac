@@ -1,4 +1,4 @@
-import type { Middleware } from '@daggamaultz/sumac';
+import type { Middleware } from '@daggamault/sumac';
 import type { SafeUser } from '.';
 import type { AppCtx } from './context';
 

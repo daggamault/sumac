@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "drizzle-orm": "^0.45.1",
-    "@daggamaultz/sumac": "workspace:*"
+    "@daggamault/sumac": "workspace:*"
   },
   "scripts": {
     "dev": "cd ../.. && bun --hot apps/demo/src/index.ts",
